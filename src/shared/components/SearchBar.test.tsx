@@ -1,5 +1,5 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { describe, expect, test, vi } from "vitest";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { SearchBar } from "./SearchBar";
 
 describe("SearchBar", () => {
